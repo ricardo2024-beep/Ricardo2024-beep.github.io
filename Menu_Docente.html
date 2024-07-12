@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="Css/Menu_Docente.css">
+    <link rel="icon" href="Imagenes/Sistema.png">
+    <title>Sistema Docente</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <button class="exit-btn"><i class="fas fa-times"></i></button>
+
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <div class="profile-pic">
+                    <img src="Imagenes/Docente.png" alt="Foto de perfil">
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <form class="form">
+                <label for="clave"><i class="fas fa-id-card"></i> Clave:</label>
+                <input type="text" id="clave" name="clave" required>
+
+                <label for="nombre"><i class="fas fa-user"></i> Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="carrera"><i class="fas fa-graduation-cap"></i> Carrera:</label>
+                <input type="text" id="carrera" name="carrera" required>
+
+                <div class="form-control">
+                    <label for="especialidad"><i class="fas fa-book"></i> Especialidad:</label>
+                    <input type="text" id="especialidad" name="especialidad" required>
+
+                </div>
+
+                <label for="cedula"><i class="fas fa-id-card-alt"></i> Cedula:</label>
+                <input type="text" id="cedula" name="cedula" required>
+
+
+                <label for="foto"><i class="fas fa-camera"></i> Foto:</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+
+                <input type="submit" value="Enviar" class="submit">
+            </form>
+        </div>
+
+    </div>
+    <script defer src="https://app.embed.im/snow.js"></script>
+
+</body>
+
+</html>

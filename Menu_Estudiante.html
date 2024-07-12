@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="Css/Menu_Estudiante.css">
+    <link rel="icon" href="Imagenes/Sistema.png">
+    <title>Sistema Estudiante</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <button class="exit-btn"><i class="fas fa-times"></i></button>
+
+        <div class="sidebar">
+            <div class="sidebar-content">
+                <div class="profile-pic">
+                    <img src="Imagenes/Docente.png" alt="Foto de perfil">
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <form class="form">
+                <label for="matricula"><i class="fas fa-id-card"></i> Matrícula:</label>
+                <input type="text" id="matricula" name="matricula" required>
+
+                <label for="nombre"><i class="fas fa-user"></i> Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="edad"><i class="fas fa-calendar-alt"></i> Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+
+                <label for="carrera"><i class="fas fa-graduation-cap"></i> Carrera:</label>
+                <input type="text" id="carrera" name="carrera" required>
+
+                <label for="grupo"><i class="fas fa-users"></i> Grupo:</label>
+                <input type="text" id="grupo" name="grupo" required>
+            </form>
+
+            <form class="form">
+                <label for="turno"><i class="far fa-clock"></i> Turno:</label>
+                <input type="text" id="turno" name="turno" required>
+
+                <label for="usuario"><i class="fas fa-user-lock"></i> Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="contrasena"><i class="fas fa-key"></i> Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+
+                <label for="foto"><i class="fas fa-camera"></i> Foto:</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+
+                <input type="submit" value="Enviar" class="submit">
+            </form>
+        </div>
+
+    </div>
+    <script defer src="https://app.embed.im/snow.js"></script>
+
+</body>
+
+</html>

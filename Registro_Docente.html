@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="Css/Registro_Docente.css">
+    <link rel="icon" href="Imagenes/Sistema.png">
+    <title>Registro de Docentes</title>
+</head>
+
+<body>
+    <form class="form" action="procesar_registro.php" method="POST" enctype="multipart/form-data">
+        <h1>Registro de Docentes</h1>
+
+        <div class="form-control">
+            <label for="clave"><i class="fas fa-id-card"></i> Clave:</label>
+            <input type="text" id="clave" name="clave" required>
+        </div>
+
+        <div class="form-control">
+            <label for="nombre"><i class="fas fa-user"></i> Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-control">
+            <label for="carrera"><i class="fas fa-graduation-cap"></i> Carrera:</label>
+            <input type="text" id="carrera" name="carrera" required>
+
+        </div>
+
+        <div class="form-control">
+            <label for="especialidad"><i class="fas fa-book"></i> Especialidad:</label>
+            <input type="text" id="especialidad" name="especialidad" required>
+        </div>
+
+        <div class="form-control">
+            <label for="cedula"><i class="fas fa-id-card-alt"></i> Cedula:</label>
+            <input type="text" id="cedula" name="cedula" required>
+
+        </div>
+
+        <div class="form-control">
+            <label for="foto"><i class="fas fa-camera"></i> Foto:</label>
+            <input type="file" id="foto" name="foto" accept="image/*" required>
+        </div>
+        <button type="submit">Registrarse</button>
+    </form>
+    <script defer src="https://app.embed.im/snow.js"></script>
+
+</body>
+
+</html>
